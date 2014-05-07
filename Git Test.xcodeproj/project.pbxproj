@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2230877E191AE56C0050A4EF /* TKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2230877D191AE56C0050A4EF /* TKTest.m */; };
 		223A29981919BF6E00DDB76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223A29971919BF6E00DDB76D /* Foundation.framework */; };
 		223A299A1919BF6E00DDB76D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223A29991919BF6E00DDB76D /* CoreGraphics.framework */; };
 		223A299C1919BF6E00DDB76D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223A299B1919BF6E00DDB76D /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2230877C191AE56C0050A4EF /* TKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTest.h; sourceTree = "<group>"; };
+		2230877D191AE56C0050A4EF /* TKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTest.m; sourceTree = "<group>"; };
 		223A29941919BF6E00DDB76D /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		223A29971919BF6E00DDB76D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		223A29991919BF6E00DDB76D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				223A29A91919BF6E00DDB76D /* Main.storyboard */,
 				223A29AC1919BF6E00DDB76D /* TKViewController.h */,
 				223A29AD1919BF6E00DDB76D /* TKViewController.m */,
+				2230877C191AE56C0050A4EF /* TKTest.h */,
+				2230877D191AE56C0050A4EF /* TKTest.m */,
 				223A29AF1919BF6E00DDB76D /* Images.xcassets */,
 				223A299E1919BF6E00DDB76D /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				223A29AE1919BF6E00DDB76D /* TKViewController.m in Sources */,
 				223A29A41919BF6E00DDB76D /* main.m in Sources */,
+				2230877E191AE56C0050A4EF /* TKTest.m in Sources */,
 				223A29A81919BF6E00DDB76D /* TKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				223A29C81919BF6E00DDB76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223A29C91919BF6E00DDB76D /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				223A29CB1919BF6E00DDB76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
